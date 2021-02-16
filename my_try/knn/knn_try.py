@@ -26,3 +26,10 @@ if __name__ == '__main__':
 	num_correct = np.sum(y_test_pred == y_test)
 	accuracy = float(num_correct) / X_test.shape[0]
 	print('Got %d / %d correct => accuracy: %f' % (num_correct, X_test.shape[0], accuracy))
+
+	# aa = np.array([[27.3, 24], [24, 23.2]])
+	# bb = np.linalg.inv(aa)
+	# mu1 = np.array([[3,3.6]])
+	# mu2 = np.array([[3.3, 2]])
+	# mu = mu1-mu2
+	# print(mu@bb)

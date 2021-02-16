@@ -8,6 +8,8 @@ File description：
 """
 
 import numpy as np
+import icecream as ic
+
 
 
 # data_dict = {-1: np.array([[1, 7],
@@ -43,3 +45,9 @@ print(a)
 # yy = np.array([[3, 4, 5, 6]])
 # rrr = pow((xx - yy), 2)
 # print(rrr)
+
+
+# adddd = np.array([1,2,3,4])
+# ic.contextmanager()
+
+
