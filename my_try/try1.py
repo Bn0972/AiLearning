@@ -31,16 +31,16 @@ import icecream as ic
 # print(result)
 # print(all_data)
 
-def distance(x, z):
-	# print((x-z))
-	# print((x-z).T)
-	return np.sqrt((x - z) @ np.transpose(x - z))
-
-
-c = np.array([0, 2])
-a = np.array([[11, 2, 3, 4], [12, 3, 4, 5], [13, 2, 3, 4], [14, 3, 4, 5]])
-print(np.mean(a[c], axis=0))
-print(a)
+# def distance(x, z):
+# 	# print((x-z))
+# 	# print((x-z).T)
+# 	return np.sqrt((x - z) @ np.transpose(x - z))
+#
+#
+# c = np.array([0, 2])
+# a = np.array([[11, 2, 3, 4], [12, 3, 4, 5], [13, 2, 3, 4], [14, 3, 4, 5]])
+# print(np.mean(a[c], axis=0))
+# print(a)
 # xx = np.array([[1, 2, 3, 4]])
 # yy = np.array([[3, 4, 5, 6]])
 # rrr = pow((xx - yy), 2)
@@ -50,4 +50,17 @@ print(a)
 # adddd = np.array([1,2,3,4])
 # ic.contextmanager()
 
+
+# a = np.arange(5)
+# b = np.arange(15).reshape((5,3))
+# print(a)
+# print(b)
+# c = np.dot(a,b)
+# d = np.exp(a)
+# print(c)
+# print(d)
+# print(1/c)
+x = np.sign(100)
+print(x)
+# assert
 
