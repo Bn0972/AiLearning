@@ -8,6 +8,7 @@ File description：
 """
 from sklearn import tree
 from sklearn.datasets import load_wine
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
@@ -55,8 +56,9 @@ print(f'result_apply_X_test={result_apply_X_test}')
 print(f'result_predict_X_test={result_predict_X_test}')
 unique_apply_X_test = np.unique(result_apply_X_test)
 print(f'unique_apply_X_test={unique_apply_X_test}')
-# result_X_test_predict_proba = clf.predict_proba(X_test)
-# print(f'result_X_test_predict_proba={result_X_test_predict_proba}')
+result_X_test_predict_proba = clf.predict_proba(X_test)
+print(f'result_X_test_predict_proba={result_X_test_predict_proba}')
+# accuracy_score(np.array([[0, 1], [1, 1]]), np.ones((2, 2)))
 
 
 
